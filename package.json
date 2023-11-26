@@ -1,0 +1,28 @@
+{
+  "name": "juiceshop",
+  "version": "1.0.0",
+  "description": "juice shop test automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy.run:allur": "npx cypress run --env allure=true",
+    "allur:generate": "allure generate",
+    "allur:clear": "rd /s /q allure-report allure-results cypress/screenshots cypress/videos",
+    "server": "npx json-server-auth http://jsonplaceholder.typicode.com/db"
+  },
+  "keywords": [
+    "juice",
+    "shop"
+  ],
+  "author": "Andrii Zharskyi",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.5.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@mmisty/cypress-allure-adapter": "^0.15.2",
+    "@shelex/cypress-allure-plugin": "^2.5.0",
+    "allure-commandline": "^2.24.1"
+  }
+}

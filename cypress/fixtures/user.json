@@ -1,0 +1,15 @@
+{
+    "email": "testing@testingmail.com",
+    "userPassword": "123456",
+    "repeatPassword": "123456",
+    "securityAnswer": "Vira",
+    "countryName": "Ukraine",
+    "phoneNumber": "0701234567",
+    "zipCode": "00001",
+    "deliveryStreet": "Hrushevskogo str.",
+    "cityName": "Kyiv",
+    "regionName": "Kyiv region",
+    "cardNumber": "1234123412341234",
+    "feedbackComent" : "ТОП за свої гроші!",
+    "captchaResult": ""
+}
